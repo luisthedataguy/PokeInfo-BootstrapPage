@@ -1,0 +1,124 @@
+/* Navbar */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-logo {
+  width: 210px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.navbar-collapse {
+  margin-right: auto;
+}
+
+.img-carrusel {
+  height: calc(100vh - 76px);
+  object-fit: cover;
+  object-position: center;
+}
+
+.pantalla {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: calc(100vh - 76px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadro {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  width: 50vw;
+  text-align: center;
+}
+/* 
+#ribbon {
+  background-color: rgb(219, 26, 26);
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 25px,
+    rgba(131, 21, 21, 0.5) 25px,
+    rgba(131, 21, 21, 0.5) 40px
+  );
+}
+#ribbon::after {
+  content: "";
+  background-color: transparent;
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: auto;
+  margin-top: -40px;
+} */
+
+#ribbon {
+  background-color: rgb(219, 26, 26);
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 25px,
+    rgba(131, 21, 21, 0.5) 25px,
+    rgba(131, 21, 21, 0.5) 40px
+  );
+}
+
+#ribbon::after {
+  content: "";
+  background-color: transparent;
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: auto;
+  margin-top: -50px;
+}
+#week {
+  background-color: rgb(219, 26, 26);
+  position: relative;
+  margin-top: -24px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#week img {
+  position: relative;
+  margin-top: -15px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.card-title {
+  text-align: center;
+}
+.card-body {
+  text-align: justify;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cuadro:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.social-media {
+  margin-bottom: 15px;
+  width: 40px;
+  height: 45px;
+}
